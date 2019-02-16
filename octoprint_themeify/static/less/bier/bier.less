@@ -1,0 +1,51 @@
+.bier() {
+  #navbar {
+    .navbar-inner {
+      background: #2b2726;
+      color: white;
+      text-shadow: none;
+    }
+  }
+
+  .nav-tabs {
+    > li {
+      > a {
+        color: #2b2726;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        padding: 8px 14px;
+        line-height: 20px;
+        border-radius: 4px 4px 0 0;
+        border: 0;
+        margin: 0;
+      }
+    }
+  }
+
+  .nav-tabs {
+    &.active>a {
+
+    }
+  }
+  .nav-tabs>.active>a,
+  .nav-tabs>.active>a:hover {
+    cursor: default;
+    border: 0;
+    margin: 0;
+    background: #028790;
+    color: #fff;
+  }
+
+  .nav>li>a:hover {
+    text-decoration: none;
+    background: #0c516e;
+    color: #fff;
+  }
+
+  #navbar .navbar-inner .brand,
+  #navbar .navbar-inner .nav>li>a {
+    text-shadow: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+}
